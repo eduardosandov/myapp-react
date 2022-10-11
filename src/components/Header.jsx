@@ -1,42 +1,52 @@
 import React from "react";
 import '../styles/styles.scss';
+import perfil from '../assets/img/plate2.png';
+import { useState } from "react";
 
 
 const Header = () => {
+
+    
+    
     return (
+        <header className="header">
+            <a href="/" className="header__logo">edua</a>
 
-        
-            <nav className="nav bd-container">
-                <a href="/" className="nav__logo">esando</a>
+            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
 
-                <div className="nav__menu" id="nav-menu">
-                    <ul className="nav__list">
-                        <li className="nav__item">
-                            <a href="/" className="nav__link active-link">Home</a>
-                        </li>
-                        <li className="nav__item">
-                            <a href="/about" className="nav__link">About</a>
-                        </li>
-                        <li className="nav__item">
-                            <a href="#services" className="nav__link">Services</a>
-                        </li>
-                        <li className="nav__item">
-                            <a href="#menu" className="nav__link">Menu</a>
-                        </li>
-                        <li className="nav__item">
-                            <a href="#contact" className="nav__link">Contact us</a>
-                        </li>
+            <nav className="nav" id="nav-menu">
 
-                        <li><i className='bx bx-moon change-theme' id="theme-button"></i></li>
-                    </ul>
-                </div>
+                <div className="nav__content bd-grid">
+                <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+                    <div className="nav__perfil">
+                        <div className="nav__img">
+                            <img src={perfil} alt="" />
+                        </div>
+                        <div>
+                            <a href="/" className="nav__name">eduardo</a>
+                            <span class="nav__profesion">Web designer</span>
+                        </div>
+                    </div>
 
-                <div className="nav__toggle" id="nav-toggle">
-                    <i className='bx bx-menu'></i>
+                    <div className="nav__menu">
+                        <ul className="nav__list">
+                            <li className="nav__item"><a href="/" className="nav__link">Home</a></li>
+                            <li className="nav__item"><a href="/" className="nav__link">About</a></li>
+                            <li className="nav__item"><a href="/" className="nav__link">Skills</a></li>
+                            <li className="nav__item"><a href="/" className="nav__link">Portfolio</a></li>
+                            <li className="nav__item"><a href="/" className="nav__link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div className="nav__social">
+                        <a href="/" className="nav__social-icon">linkedin</a>
+                    </div>
                 </div>
             </nav>
+        </header>
         
     );
 }
 
 export default Header;
+
