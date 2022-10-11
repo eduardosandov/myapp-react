@@ -1,10 +1,12 @@
 import React from "react";
 import '../styles/styles.scss';
 import perfil from '../assets/img/plate2.png';
+import { useState } from "react";
 
 
 const Header = () => {
 
+    
     
     return (
         <header className="header">
