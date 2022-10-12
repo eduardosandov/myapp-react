@@ -1,13 +1,16 @@
 import React from 'react';
-import Home from '../assets/img/home.png';
+import Home from '../assets/img/logo insta.png';
+import '../styles/home.scss';
+import '../styles/styles.scss';
+
 
 const HomeIam = () => {
     return (
         <section className="home" id="home">
             <div className="home__container bd-container bd-grid">
                 <div className="home__data">
-                    <h1 className="home__title">eduardo</h1>
-                    <h2 className="home__subtitle">Soy un development <br /> in process</h2>
+                    <h1 className="home__title">Eduardo Sandoval</h1>
+                    <h2 className="home__subtitle">full stack developer</h2>
                     <a href="/" className="button">Mas sobre mi</a>
                 </div>
 

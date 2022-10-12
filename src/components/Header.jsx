@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/styles.scss';
-import perfil from '../assets/img/plate2.png';
-import { useState } from "react";
+import perfil from '../assets/img/logo insta.png';
+
 
 
 const Header = () => {
