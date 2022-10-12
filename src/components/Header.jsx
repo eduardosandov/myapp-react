@@ -2,15 +2,10 @@ import React from "react";
 import '../styles/styles.scss';
 import perfil from '../assets/img/logo insta.png';
 
-
-
-const Header = () => {
-
-    
-    
+const Header = () => {    
     return (
         <header className="header">
-            <a href="/" className="header__logo">edua</a>
+            <a href="/" className="header__logo">eduard</a>
 
             <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
 
@@ -43,8 +38,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-        </header>
-        
+        </header>        
     );
 }
 
