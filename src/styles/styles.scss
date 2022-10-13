@@ -37,6 +37,9 @@
 *,::before,::after{
     box-sizing: border-box;
 }
+
+
+
 body{
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
@@ -135,6 +138,7 @@ img{
         justify-self: center;
     }
     input{
+        width: 50px;
         font-size: 30px;
         outline: none;
         padding: 5px;
@@ -146,7 +150,7 @@ img{
     }
     input::placeholder{
         opacity: 0;
-        color: #0f2a5f;
+        color: #059607;
         transition: 1.1s linear;
     }
     input:hover{

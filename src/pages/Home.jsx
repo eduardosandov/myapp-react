@@ -12,8 +12,8 @@ const Home = () => {
                     <h1 className="home__title">Eduardo Sandoval</h1>
                     <h2 className="home__subtitle">full stack developer</h2>
                     <a href="/" className="button">Mas sobre mi</a>
-                    <input type="text" placeholder='Name' className='home__input'/>
                 </div>
+                    {/* <input type="text" placeholder='Name' /> */}
 
                 <img src={HomeLogo} alt="" className="home__img" />
             </div>
