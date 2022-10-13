@@ -2,6 +2,7 @@ import React from "react";
 import '../styles/styles.scss';
 import perfil from '../assets/img/logo insta.png';
 
+
 const Header = () => {    
     return (
         <header className="header">
@@ -34,7 +35,7 @@ const Header = () => {
                     </div>
 
                     <div className="nav__social">
-                        <a href="/" className="nav__social-icon">linkedin</a>
+                        <a href="https://www.linkedin.com/in/eduardo5andoval/" blank className="nav__social-icon">linkedin</a>
                     </div>
                 </div>
             </nav>
