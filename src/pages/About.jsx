@@ -8,9 +8,9 @@ const About = () => {
             <div className="about__container  bd-grid">
                 <div className="about__data">
                     <span className="section-subtitle about__initial">Hacerca de Mi</span>
-                    <h2 className="section-title about__initial">We cook the best <br /> tasty food</h2>
-                    <p className="about__description">We cook the best food i  n the entire city, with excellent customer service, the best meals and at the best price, visit us.</p>
-                    <a href="/" className="button">Explore history</a>
+                    <h2 className="section-title about__initial">Eduardo Sandoval</h2>
+                    <p className="about__description">Soy Ingeniero en Sistemas Computacionales, con experiencia en el ambito de la tecnologia y evaluacion de la conformidad de acuerdo a las normas mexicas NOM y NMX</p>
+                    <a href="/" className="button">Skills</a>
                 </div>
 
                 <img src={AboutImg} alt="" className="about__img" />

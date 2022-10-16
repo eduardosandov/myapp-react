@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="home__data">
                     <h1 className="home__title">Eduardo Sandoval</h1>
                     <h2 className="home__subtitle">full stack developer</h2>
-                    <a href="/" className="button">Mas sobre mi</a>
+                    <a href="/" className="button">Sobre mi</a>
                 </div>
                     {/* <input type="text" placeholder='Name' /> */}
 
